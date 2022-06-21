@@ -1,7 +1,7 @@
 {
-  "name": "@everlast-brands/package-starter",
-  "version": "0.1.2",
-  "description": "Template project used to quickly create typescript npm packages.",
+  "name": "@everlast-brands/utility-functions",
+  "version": "0.1.0",
+  "description": "Collection of approved functions.",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
