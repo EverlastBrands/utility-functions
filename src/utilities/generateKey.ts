@@ -1,4 +1,4 @@
-export default function generateKey(length = 36) {
+export function generateKey(length = 36) {
   const validCharacters =
     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
   let newKey = "";

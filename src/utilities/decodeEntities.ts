@@ -11,7 +11,7 @@ var entities = {
   quot: '"',
 };
 
-export default function decodeEntities(text) {
+export function decodeEntities(text) {
   if (!text) return "";
   return text.replace(/&([^;]+);/gm, function (match, entity) {
     return entities[entity] || match;

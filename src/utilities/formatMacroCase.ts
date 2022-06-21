@@ -1,4 +1,4 @@
-const formatMacroCase = (str) => {
+export const formatMacroCase = (str) => {
   let parts = str.toLowerCase();
   parts = parts.split("");
   const capitalIndexes: string[] = [];
@@ -39,5 +39,3 @@ const formatMacroCase = (str) => {
   parts[0] = parts[0].toUpperCase();
   return parts.join("");
 };
-
-export default formatMacroCase;

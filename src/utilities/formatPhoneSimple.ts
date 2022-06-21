@@ -1,4 +1,4 @@
-export default function formatPhoneSimple(str) {
+export function formatPhoneSimple(str) {
   let parts = str.split("");
   parts.splice(0, 0, "(");
   parts.splice(4, 0, ")");

@@ -1,4 +1,4 @@
-export default function mergeArraysNoDuplicates(uniqueKey, ...arrays) {
+export function mergeArraysNoDuplicates(uniqueKey, ...arrays) {
   const allArrays = [...arrays.flat()];
   const newArray: any[] = [];
   allArrays.forEach((item) => {

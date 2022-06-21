@@ -1,4 +1,4 @@
-export default function formatMoney(num) {
+export function formatMoney(num) {
   return formatDollar(num / 100);
 }
 
