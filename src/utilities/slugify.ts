@@ -3,5 +3,5 @@ export function slugify(str: string) {
     .toLowerCase()
     .split(" ")
     .join("-")
-    .replace(/[^a-zA-Z0-9 ]/g, "");
+    .replace(/[^a-zA-Z0-9-]/g, "");
 }
